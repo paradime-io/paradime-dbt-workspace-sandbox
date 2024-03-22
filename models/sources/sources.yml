@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: jaffle_shop_sources
+    tables:
+      - name: ad_spend
+      - name: customer_conversions
+      - name: raw_customers
+      - name: raw_orders
+      - name: raw_payments
+      - name: sessions

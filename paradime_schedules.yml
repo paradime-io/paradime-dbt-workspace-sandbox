@@ -1,0 +1,7 @@
+schedules:
+  - name: daily_compile # The name of your schedule
+    schedule: "@daily" # The schedule cron configuration or use "OFF" if you want to disable the schedule. You can use https://crontab.guru/ to help you with the cron configuration.
+    environment: production # The environment used to run the schedule -> this is always production
+    commands: # The set of dbt commands you want to run in the schedule
+      - dbt compile
+    owner_email: "john@acme.io" # The owner email

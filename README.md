@@ -1,1 +1,1 @@
-Sample dbt project
+# paradime-dbt-workspace-zero
